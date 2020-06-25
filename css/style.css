@@ -1,0 +1,43 @@
+/*reset*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+  text-align: center;
+  margin: 50px;
+}
+
+.img {
+  display: inline-block;
+  position: relative;
+}
+
+.square{
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.square2{
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.cuoricino{
+  color: red;
+  position:absolute;
+  bottom: 10px;
+  left: 50%;
+  font-size: 35px;
+  display: none;
+}
+
+.img:hover > .cuoricino{
+  display: block;
+}
